@@ -1,9 +1,8 @@
 //
 //  DataPersistence.swift
-//  TheMovieApp
+
 //
-//  Created by CİHAN ÖZTÜRK on 1.02.2021.
-//  Copyright © 2021 CİHAN ÖZTÜRK. All rights reserved.
+
 //
 
 import Foundation
