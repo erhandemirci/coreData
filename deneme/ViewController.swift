@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        
+        CoreDataManager.shared.saveAlbumInfo(artistName: "erhan", movieName: "album", image: "image", listeners: "listeners", playCount: "playCount", published: "playCount")
+       print(CoreDataManager.shared.fetchArtists())
+
     }
+   
+    
+
+
+    
 
 
 }
-

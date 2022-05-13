@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Episode" representedClassName="Episode" syncable="YES" codeGenerationType="class">
+        <attribute name="link" optional="YES" attributeType="URI"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES" codeGenerationType="class">
+        <attribute name="episodes" optional="YES" attributeType="Transformable"/>
+        <attribute name="image" optional="YES"/>
+        <attribute name="name" optional="YES"/>
+    </entity>
+    <elements>
+        <element name="Video" positionX="-63" positionY="-9" width="128" height="14"/>
+        <element name="Episode" positionX="-54" positionY="0" width="128" height="14"/>
+    </elements>
+</model>
